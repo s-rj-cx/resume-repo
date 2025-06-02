@@ -28,7 +28,7 @@ This project demonstrates a complete Infrastructure as Code (IaC) pipeline to pr
 - Manages credentials securely and reduces deployment time.
 
 ### 🔧 Web App Deployment
-- You can deploy **any web application** by simply modifying the `Dockerfile` according to your app's requirements.
+- You can deploy **any web application** by simply modifying the `Dockerfile` according to your app's requirements and also changing same in Jenkinsfile.
 
 ---
 
