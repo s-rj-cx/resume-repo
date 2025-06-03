@@ -59,7 +59,7 @@ This project demonstrates a complete Infrastructure as Code (IaC) pipeline to pr
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/Rocinate-droid/Devops-Project.git
 cd your-repo
 
 ## 2. AWS Credentials & Key Setup
