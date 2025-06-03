@@ -34,7 +34,7 @@ This project demonstrates a complete Infrastructure as Code (IaC) pipeline to pr
 
 ## 📁 Terraform Modules
 
-- **`instance_template`**: Provisions the **master server** along with its VPC, subnet, and security groups. Configuration is bootstrapped via **cloud-init**.
+- **`master_template`**: Provisions the **master server** along with its VPC, subnet, and security groups. Configuration is bootstrapped via **cloud-init**.
 - **`node_template`**: Provisions **worker nodes** that join the Docker Swarm cluster (You can increase the no of nodes needed as per your need by modifying this template but also take care to add and modify the variables also)
 
 ---
