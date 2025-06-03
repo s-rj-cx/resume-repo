@@ -143,7 +143,7 @@ http://<master-public-ip>:8080
 ### 10. Setup Pipeline
 
 - Push your files to a **GitHub repository**.
-- Create a **Pipeline Job** in Jenkins and link it to the GitHub repo.
+- Create a **Pipeline Job** in Jenkins and change the git credentials in the Jenkins file before the build.
 - Trigger the pipeline to deploy the application.
 
 ---
