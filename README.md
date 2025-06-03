@@ -125,18 +125,7 @@ ansible-vault edit main.yml
 
 ---
 
-### 10. Deploy Nodes
-
-- Inside the master instance
-```bash
-cd node_template
-terraform init
-terraform apply
-```
-
----
-
-### 11. Jenkins Setup
+### 9. Jenkins Setup
 
 - Visit Jenkins at:
 
@@ -151,15 +140,15 @@ http://<master-public-ip>:8080
 
 ---
 
-### 12. Setup Pipeline
+### 10. Setup Pipeline
 
 - Push your files to a **GitHub repository**.
-- Create a **Pipeline Job** in Jenkins and link it to your GitHub repo.
+- Create a **Pipeline Job** in Jenkins and link it to the GitHub repo.
 - Trigger the pipeline to deploy the application.
 
 ---
 
-### 13. Access Your Web Application
+### 11. Access Your Web Application
 
 Visit your deployed web application:
 
