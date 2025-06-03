@@ -150,7 +150,7 @@ http://<master-public-ip>:8080
 
 ### 11. Access Your Web Application
 
-Visit your deployed web application:
+Visit your deployed web application(uses nginx service):
 
 ```
 http://<master-public-ip>:80
