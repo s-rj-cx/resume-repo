@@ -1,12 +1,9 @@
 pipeline {
     agent any
-    environment {
-        VAULT_PASSWORD    = 'vault_password'
-    }
     stages {
         stage ("Git SCM pull") {
             steps {
-                git branch: 'resume_build', changelog: false, poll: false, url: 'https://github.com/Rocinate-droid/Portifolio.git'
+                git branch: 'resume_build', changelog: false, credentialsId: '50607382-6416-4216-b167-62bcf03df4b8', poll: false, url: 'https://github.com/Rocinate-droid/Portifolio.git'
                 sh 'whoami'
             }
         }
