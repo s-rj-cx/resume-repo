@@ -1,7 +1,9 @@
 region = "us-east-1"
-subnet-id = "subnet-01f951190e3ca2879"
+
 ami = "ami-084568db4383264d4"
 instance-type = "t2.micro"
 key = "demokey"
-security-group-id = "sg-08a1c04d50c779f74"
+
 private-ip = "10.0.2.50"
+subnet-id = "subnet-04779a6c611012b56"
+security-group-id = "sg-0f4a74a569de98212"
