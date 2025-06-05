@@ -12,7 +12,7 @@ pipeline {
                 // change the command to terraform destroy --auto-approve after the usage and run the pipeline again to clean up node-instance aws resources
                 sh '''
                    terraform init
-                   terraform apply --auto-approve
+                   terraform destroy --auto-approve
                    '''
               }
             }
